@@ -1,0 +1,59 @@
+body {
+background: #0f2027; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #0f2027, #203a43, #2c5364); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: sans-serif;
+color: white;
+font-family: "Poppins", sans-serif;
+min-height: 100vh;
+}
+
+.btn-primary {
+color: #fff;
+background-color: #f89fba;
+border-color: #f89fba;
+}
+.containerFormSubmittedMessage {
+display: flex;
+flex-direction: column;
+margin: auto;
+justify-content: center;
+align-items: center;
+height: 200px;
+border: 3px solid whitesmoke;
+}
+
+.navbar {
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9;
+    background: #0f2027;
+}
+
+.link-group{
+    list-style: none;
+    display: flex;
+}
+
+.link a{
+    color: #fff;
+    opacity: 0.5;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 10px 30px;
+    margin: 0 20px;
+    line-height: 80px;
+    transition: .5s;
+    font-size: 20px;
+}
+
+.link a:hover{
+    opacity: 1;
+    background-color: #203a43;
+    border-radius: 8px;
+}
